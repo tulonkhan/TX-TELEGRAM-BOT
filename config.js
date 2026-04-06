@@ -5,7 +5,7 @@ module.exports = {
   admin: ["1935714816"], // your id
   prefix: "/", // dont change prefix 
   telegramBotToken: "6613940836:AAHlaKB4pPKEUFREAC_I-TcJQgaGtfeYVb8",//Your Bot Tokens
-  imageUrl: "https://i.postimg.cc/WpmJhNVg/received-383729254132460.jpg",//Thumbnail Url
+  imageUrl: "https://i.postimg.cc/gj41CfhG/Bot.jpg",//Thumbnail Url
   port: process.env.PORT || 8053 || 8053, // port
   mess: {
     ownerlink: "https://t.me/NXT_Trader",
