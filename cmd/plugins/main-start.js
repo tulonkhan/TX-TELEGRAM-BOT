@@ -18,7 +18,7 @@ module.exports.start = async ({ api, event}) => {
   const prefix = global.config?.prefix || "/";
 
   const welcomeMessage = `
-✨ *Welcome to Nayan Bot!* ✨
+✨ *Welcome to Tx Creative Bot!* ✨
 
 👋 Hello, *${firstName} ${lastName}*
 
@@ -41,7 +41,7 @@ module.exports.start = async ({ api, event}) => {
 💎 *Premium Experience Activated!* Enjoy smooth, fast, and responsive commands.
 ─────────────────────────────
 
-© *Developed by Mohammad Nayan*
+© *Developed by Tx Tulon*
 `;
 
   await api.sendMessage(chatId, welcomeMessage, { parse_mode: "Markdown", reply_to_message_id: event.message.message_id });
